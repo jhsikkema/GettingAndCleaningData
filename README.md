@@ -4,6 +4,13 @@
 This repository contains a script that cleans up data from  <a href=“http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones”> the machine learning database concerning wearables</a>.
 
 
+## Files
+<ul>
+<li> README.md: This file </li>
+<li> run_analysis.R: Script to cleanup the dataset </li>
+<li> CodeBook.pdf: A file describing the variables in the resulting dataset </li>
+</ul> 
+
 ## Functionality
 The script filters out irrelevant columns and calculates the means of the relevant columns per test subject per activity. Also it process the data so the activities are labelled in an easier to read way. Finally it reverse the division in train and test data and glues the two datasets together.
 
